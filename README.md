@@ -1,2 +1,2 @@
 # babatunde.github.io
-Templaate UI
+Template UI
