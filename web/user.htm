@@ -1,0 +1,314 @@
+<html >
+    
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta property="og:description" content=" Andela bootCamp Project">
+		<meta name="description" content="More Recipe Bootcamp Project">
+		<meta property="og:title" content="Andela is building a world-class developer">
+		<title>user</title>
+		
+		<link rel="stylesheet" type="text/css" href="../css/style2.css">
+		<link rel="stylesheet" type="text/css" href="../css/responsive.css">
+		
+		<link rel="shortcut icon" href="../images/cheff_icon1.png">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../icons/MaterialIcons-Regular.woff">
+		<link rel="stylesheet" type="text/css" href="../css/material-icons.css">
+		
+		<style>
+			
+
+
+
+#u-pic-con{
+	
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	cursor: pointer;
+	border-radius: 50%;
+	margin-top: 10px;
+	
+
+}
+
+
+.con{
+	width: 100%;
+	height: 90%;
+	position: relative;
+	top: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	/*background-color: black;*/
+	padding-left: 0px!important;
+	
+}
+ul.top-10-listHolder {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #cc2900;
+}
+
+.top-10-list a {
+    display: block;
+    color: white;
+	text-align: center;
+    padding: 8px 0px 8px 16px;
+    text-decoration: none;
+}
+
+
+
+/* Change the link color on hover */
+.top-10-list a:hover {
+    background-color: #ff471a;
+    color: #b3d9ff;
+}
+
+#top-10-con{
+	width: 15%;
+	height: 100%;
+	background-color:#cc2900;
+}
+
+.recipe-con{
+	width: 85%;
+	height: 100%;
+	
+	 
+}
+
+.tool-bar{
+	width: 100%;
+	height: 10%;
+	
+}
+.addRecipebutton{
+	width: 60px;
+	height: 60px;
+	background-color: red;
+	border-radius: 50%;
+	float: left;
+	padding-top: 8px;
+	padding-left: 8px;
+	cursor: pointer;
+}
+.searchBar{
+	width: 70%;
+	height: 100%;
+	background-color: none;
+	float: left;
+}
+
+
+
+.goButton{
+	width: 60px;
+	height: 60px;
+	background-color: green;
+	border-radius: 50%;
+	float: left;
+	padding-top: 8px;
+	padding-left: 8px;
+	cursor: pointer;
+	margin-left: 12px;
+
+}
+.recipeList{
+	width: 100%;
+	height: 485px;
+	
+	border: 1px solid white;
+	margin-top: 60px;
+
+}
+
+.recipeCard{
+	width: 20%;
+	height: 230px;
+	background-color: white;
+	position: relative;
+}
+.edit{ 
+	width: 20%;
+	height: 40px;
+	background-color: black;
+	position: absolute;
+}
+
+.recipePic{
+
+	width: 100%;
+	height: 130px;
+	background-color: yellow;
+}
+
+#top-badge{
+	width: 100%;
+	height: 20%;
+	background-color:  #ff471a;
+	text-align: center;
+	font-size: 2em;
+	font-family: "Arial", sans-serif;
+	color: white;
+	padding-top: 20%;
+}
+.menu{
+height: 200px;
+width: 100px;
+display: none;
+position: absolute;
+background-color: #991f00;
+top: 64;
+right: 30;
+
+}
+.u-header-con{
+	with: 30%;
+}
+.menu-icon{
+	width: 40px;
+	height: 40px;
+	float: right;
+	display: none;
+	margin-right: 5%;
+	cursor: pointer;
+
+}
+
+.sidenav{
+	
+	width: 200px;
+	height: 110%;
+	background-color: blue;
+	position: fixed;
+	top: -20;
+	padding-top: 20px;
+	z-index: 3;
+	display: none;
+	
+}
+.nav-bar{
+	width: 100%;
+	height: 50px;
+	
+
+}
+
+			
+		</style>
+	</head>
+	<body style="background-image: none;">
+		<div class="header-container red-gradient" style="position: fixed; height: 10%;">
+			<div class="header-logo u-logo-small" style="width: 8.33%; float: left">
+			<div class="logo-transbox" style="background-color: black"></div>
+			<img src="../images/cheff.png" width=80% height= 90% style="position: absolute; z-index: 2; margin-left: 7%; bottom:5%;">
+			</div>
+			
+			<div class="hide-xsmall"  style=" float: right;  background-color: none; width: 5%; height: 100%; margin-right: 20px;">
+				
+				<div id="u-pic-con" class="float-left" style="margin-left: 4px;" onclick="opennav()"></div>
+				
+				<div class="menu" id="menu_drop" style="color:text-decoration: none; list-style-type: none;>
+					<ul class="dropdown">
+						<li class="top-10-list" style="color: white;"><a href="profile.htm">profile</a></li>
+						<li class="top-10-list"style="color: white;"><a href="../index.htm">Sign out</a></li>
+					</ul>
+				</div>
+				
+			</div>
+			
+			
+		</div>
+		
+		<div class="con">
+			<div id="top-10-con" class="hide-xsmall">
+				<div id="top-badge">
+					Favourite
+				</div>
+				<div class="top-10-conlist">
+					<ul class="top-10-listHolder">
+						<li class="top-10-list"><a href="#">Burger</a></li>
+						<li class="top-10-list"><a href="#">Burger</a></li>
+						<li class="top-10-list"><a href="#">Burger</a></li>
+						<li class="top-10-list"><a href="#">Burger</a></li>
+						<li class="top-10-list"><a href="#">Burger</a></li>
+						<li class="top-10-list"><a href="#">Burger</a></li>
+						<li class="top-10-list"><a href="#">Burger</a></li>
+						<li class="top-10-list"><a href="#">Burger</a></li>
+						<li class="top-10-list"><a href="#">Burger</a></li>
+						<li class="top-10-list"><a href="#">Burger</a></li>
+					</ul>
+				</div>
+			
+			</div>
+			<div class="recipe-con">
+				<div class="tool-bar">
+					<div class="addRecipebutton"><a href="recipemanagementdasboard.htm"><img src="../icons/ic_add_circle_white_48dp.png" width=80% height= 80% ></a></div>
+					<div class="addRecipebutton"><a href="recipemanagementdasboard.htm"><img src="../icons/ic_work_white_48dp.png" width=80% height= 80% ></a></div>
+					<div class="searchBar"><input type="text" class="search" placeholder="Search Recipe...."></div>
+					<div class="goButton" style="margin-left: 20px;"><img src="../icons/ic_search_white_36dp.png" width=80% height= 80% ></button>
+				</div>
+		
+				
+				<div class="recipeList flex-container">
+					<div class="recipecard flex-item">
+						
+						<div class="recipePic"><img src="../images/food-hamburgers-0.jpg" width= 100% height=130px ></div>
+						<div class="recipe-description"><span id="recipe_name" Style="font-weight: bold; font-size: 16px;">Burger</span>
+							Burger is very simple to make it add tremendous... <a href="recipedetail.htm">More</a>
+						</div>
+					</div>
+					
+					<div class="recipecard flex-item">
+						
+						<div class="recipePic"><img src="../images/food-hamburgers-0.jpg" width= 100% height=130px ></div>
+						<div class="recipe-description"><span id="recipe_name" Style="font-weight: bold; font-size: 16px;">Burger</span>
+							Burger is very simple to make it add tremendous... <a href="recipedetail.htm">More</a>
+						</div>
+					</div>
+					
+					<div class="recipecard flex-item">
+						
+						<div class="recipePic"><img src="../images/food-hamburgers-0.jpg" width= 100% height=130px ></div>
+						<div class="recipe-description"><span id="recipe_name" Style="font-weight: bold; font-size: 16px;">Burger</span>
+							Burger is very simple to make it add tremendous... <a href="recipedetail.htm">More</a>
+						</div>
+					</div>
+					<div class="recipecard flex-item">
+						
+						<div class="recipePic"><img src="../images/food-hamburgers-0.jpg" width= 100% height=130px ></div>
+						<div class="recipe-description"><span id="recipe_name" Style="font-weight: bold; font-size: 16px;">Burger</span>
+							Burger is very simple to make it add tremendous... <a href="recipedetail.htm">More</a>
+						</div>
+					</div>
+					
+					<div class="recipecard flex-item">
+						
+						<div class="recipePic"><img src="../images/food-hamburgers-0.jpg" width= 100% height=130px ></div>
+						<div class="recipe-description"><span id="recipe_name" Style="font-weight: bold; font-size: 16px;">Burger</span>
+							Burger is very simple to make it add tremendous... <a href="recipedetail.htm">More</a>
+						</div>
+					</div>
+				</div>
+				<div class="nav-bar">
+				</div>
+			</div>
+			
+	
+		</div>
+		
+		<ul class="sidenav">
+			<span>Plenty Stuffs</span>
+		</ul>
+		<script src="../js/script.js"></script>
+		<script src="../js/script2.js"></script>
+		<script src="../js/dropmenu.js"></script>
+	</body>
+	
+</html>

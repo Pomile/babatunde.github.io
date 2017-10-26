@@ -1,0 +1,85 @@
+.top-10-badge{
+	
+	
+	width: 100%;
+	height: 100px;
+	
+	text-align: center;
+	font-size: 2em;
+	font-family: "Arial", sans-serif;
+	color: white;
+	padding-top: 10%;
+}
+
+.picture-profile-badge{
+	
+	
+	width: 70%;
+	height: 200px;
+	
+	text-align: center;
+	font-size: 2em;
+	font-family: "Arial", sans-serif;
+	color: white;
+	margin-top: 9%;
+	margin-left: 12%;
+}
+
+.header-profile-badge{
+	
+	
+	width: 100%;
+	height: 100px;
+	
+	text-align: center;
+	font-size: 2em;
+	font-family: "Arial", sans-serif;
+	color: white;
+
+}
+
+ul.top-10-listHolder {
+    list-style-type: none;
+    margin-top: -20px;
+    padding: 0;
+    width: 100%;
+    background-color: #3333cc;
+	height: auto;
+}
+
+.top-10-list a {
+    display: block;
+    color: white;
+	text-align: center;
+    padding: 8px 0px 8px 16px;
+    text-decoration: none;
+}
+
+
+
+/* Change the link color on hover */
+.top-10-list a:hover {
+    background-color: #ff9966;
+    color: #cc4400;
+}
+
+input[type=text],input[type=email],  select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	box-shadow: inset 0 5px 20px rgba(0, 0, 0, 0.3);
+	margin-left: 10%;
+}
+
+.red-gradient{
+	
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ff6600,#b32400 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff6600, #b32400); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff6600, #b32400); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff6600, #b32400); /* Standard syntax */
+}

@@ -1,0 +1,207 @@
+body{
+		margin: 0px;
+		padding: 0px;
+		direction: ltr;
+		box-sizing: border-box;
+		font-family: Roboto, sans-serif;
+		Background-image: url("../images/cook.jpg");
+		position: relative;
+		background-size: cover;
+}
+
+.transbox{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: black;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	z-index: 0;	
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header-container{
+	
+	width: 100%;
+	height: 20%;
+	/*background-color: brown;*/
+	position: absolute;
+	top:0;
+	z-index: 1;
+	
+}
+
+.header-logo{
+	
+	width: 15%;
+	height: 98%;
+	margin-left: 2%;
+	margin-top: 0%;
+	border-radius: 0px 0px 20px 20px;
+	padding-left:0%;
+	position: relative;
+}
+
+.page-tag{
+	width: 25%;
+	height: 98%;
+	margin-right: 8%;
+	margin-top: 0%;
+	border-radius: 0px 0px 20px 20px;
+	padding-left:0%;
+	position: relative;
+	
+}
+.page-tag-s{
+	width: 60%;
+	height: 35%;
+	margin-top: 1%;
+	border-radius: 0px 0px 20px 20px;
+	padding-left:0%;
+	position: relative;
+	margin-left: 20%;
+}
+
+.u-header-con{
+	
+	width: 35%;
+	height: 100%;
+	margin-top: 0%;
+	position: relative;
+}
+.form-tag{
+	width: 90%;
+	height: 30%;
+	margin-top: 0%;
+	border-radius: 0px 0px 20px 20px;
+	padding-left:0%;
+	position: relative;
+	margin-left: 5%;
+	
+}
+.logo-transbox{
+	width: 100%;
+	height: 100%;
+	border-radius: 0px 0px 20px 20px;
+	background-color: black;
+	opacity: 0.4;
+	position: absolute;
+	z-index: 1;
+	
+}
+
+.afloat-left{
+	
+	float: left!important;
+}
+
+.afloat-right{
+	
+	float: right!important;
+}
+
+.aclear-float{
+	
+	clear: left;
+}
+
+
+
+
+.blue-gradient{
+	
+	background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3385ff, #003399); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3385ff, #003399); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3385ff, #003399); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3385ff, #003399); /* Standard syntax */
+}
+
+.red-gradient{
+	
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ff6600,#b32400 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff6600, #b32400); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff6600, #b32400); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff6600, #b32400); /* Standard syntax */
+}
+.search{
+	background-image: url("../icons/ic_search_white_24dp.png");
+	width: 50%;
+	float: left;
+	
+}
+
+.float-left{
+	
+	float: left;
+}
+
+.float-right{
+	
+	float: right;
+}
+
+.clear-float{
+	
+	clear: left;
+}
+
+
+
+
+.blue-gradient{
+	
+	background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#3385ff, #003399); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#3385ff, #003399); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#3385ff, #003399); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#3385ff, #003399); /* Standard syntax */
+}
+
+.red-gradient{
+	
+	background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ff6600,#b32400 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ff6600, #b32400); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ff6600, #b32400); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ff6600, #b32400); /* Standard syntax */
+}
+
+
+.search{
+	background-image: url("./icons/ic_search_white_24dp.png");
+	width: 80%;
+	height: 100%;
+	float: left;
+	
+}
+
+input[type=text],input[type=email],  select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	box-shadow: inset 0 5px 9px rgba(0, 0, 0, 0.3);
+	margin-left: 2%;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex-item{
+	margin-left: 2%;
+	margin-top: 1%;
+	
+	
+}
